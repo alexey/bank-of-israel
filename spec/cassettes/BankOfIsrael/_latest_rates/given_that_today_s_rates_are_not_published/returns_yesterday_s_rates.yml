@@ -1,0 +1,164 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.bankisrael.gov.il/currency.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/xml; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Sprequestguid:
+      - 01db8619-0d1a-4914-a07a-fc103cbd1442
+      X-Sharepointhealthscore:
+      - '0'
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Microsoftsharepointteamservices:
+      - 14.0.0.6109
+      Date:
+      - Sat, 31 May 2014 14:14:53 GMT
+      Content-Length:
+      - '1011'
+    body:
+      encoding: UTF-8
+      string: |-
+        <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+        <CURRENCIES>
+          <LAST_UPDATE>2014-05-30</LAST_UPDATE>
+          <CURRENCY>
+            <NAME>Dollar</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>USD</CURRENCYCODE>
+            <COUNTRY>USA</COUNTRY>
+            <RATE>3.475</RATE>
+            <CHANGE>-0.029</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Pound</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>GBP</CURRENCYCODE>
+            <COUNTRY>Great Britain</COUNTRY>
+            <RATE>5.8158</RATE>
+            <CHANGE>0.11</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Yen</NAME>
+            <UNIT>100</UNIT>
+            <CURRENCYCODE>JPY</CURRENCYCODE>
+            <COUNTRY>Japan</COUNTRY>
+            <RATE>3.4188</RATE>
+            <CHANGE>-0.114</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Euro</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>EUR</CURRENCYCODE>
+            <COUNTRY>EMU</COUNTRY>
+            <RATE>4.7283</RATE>
+            <CHANGE>-0.106</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Dollar</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>AUD</CURRENCYCODE>
+            <COUNTRY>Australia</COUNTRY>
+            <RATE>3.2369</RATE>
+            <CHANGE>0.198</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Dollar</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>CAD</CURRENCYCODE>
+            <COUNTRY>Canada</COUNTRY>
+            <RATE>3.2083</RATE>
+            <CHANGE>0.25</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>krone</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>DKK</CURRENCYCODE>
+            <COUNTRY>Denmark</COUNTRY>
+            <RATE>0.6335</RATE>
+            <CHANGE>-0.079</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Krone</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>NOK</CURRENCYCODE>
+            <COUNTRY>Norway</COUNTRY>
+            <RATE>0.5822</RATE>
+            <CHANGE>-0.257</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Rand</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>ZAR</CURRENCYCODE>
+            <COUNTRY>South Africa</COUNTRY>
+            <RATE>0.3327</RATE>
+            <CHANGE>-0.12</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Krona</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>SEK</CURRENCYCODE>
+            <COUNTRY>Sweden</COUNTRY>
+            <RATE>0.5210</RATE>
+            <CHANGE>-0.648</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Franc</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>CHF</CURRENCYCODE>
+            <COUNTRY>Switzerland</COUNTRY>
+            <RATE>3.8735</RATE>
+            <CHANGE>-0.067</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Dinar</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>JOD</CURRENCYCODE>
+            <COUNTRY>Jordan</COUNTRY>
+            <RATE>4.9046</RATE>
+            <CHANGE>-0.041</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Pound</NAME>
+            <UNIT>10</UNIT>
+            <CURRENCYCODE>LBP</CURRENCYCODE>
+            <COUNTRY>Lebanon</COUNTRY>
+            <RATE>0.0230</RATE>
+            <CHANGE>0</CHANGE>
+          </CURRENCY>
+          <CURRENCY>
+            <NAME>Pound</NAME>
+            <UNIT>1</UNIT>
+            <CURRENCYCODE>EGP</CURRENCYCODE>
+            <COUNTRY>Egypt</COUNTRY>
+            <RATE>0.4860</RATE>
+            <CHANGE>-0.041</CHANGE>
+          </CURRENCY>
+        </CURRENCIES>
+    http_version: 
+  recorded_at: Sat, 31 May 2014 14:14:53 GMT
+recorded_with: VCR 2.9.2

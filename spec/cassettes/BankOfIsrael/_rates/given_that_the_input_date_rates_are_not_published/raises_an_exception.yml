@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.bankisrael.gov.il/currency.xml?rdate=20140506
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/xml
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Sprequestguid:
+      - 3e77d526-de6c-40b1-b986-9438f30e6474
+      X-Sharepointhealthscore:
+      - '0'
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Microsoftsharepointteamservices:
+      - 14.0.0.6109
+      Date:
+      - Sat, 31 May 2014 14:14:53 GMT
+      Content-Length:
+      - '343'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5k
+        YWxvbmU9InllcyI/Pgo8Q1VSUkVOQ0lFUz4KICA8UkVRVUVTVEVEX0RBVEU+
+        MjAxNDA1MDY8L1JFUVVFU1RFRF9EQVRFPgogIDxFUlJPUjE+UmVxdWVzdGVk
+        IGRhdGUgaXMgaW52YWxpZCBvcjwvRVJST1IxPgogIDxFUlJPUjI+Tm8gZXhj
+        aGFuZ2UgcmF0ZSBwdWJsaXNoZWQgZm9yIHRoaXMgZGF0ZTwvRVJST1IyPgog
+        IDxFUlJPUjM+QVRURU5USU9OOiBEYXRlIHNob3VsZCBiZSBpbiBmb3JtYXQg
+        WVlZWU1NREQ8L0VSUk9SMz4KPC9DVVJSRU5DSUVTPg==
+    http_version: 
+  recorded_at: Sat, 31 May 2014 14:14:53 GMT
+recorded_with: VCR 2.9.2
